@@ -1,0 +1,622 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "https://github.com/siric-osiris/OSIRIS",
+      "concept" : [{
+        "code" : "O59-1",
+        "display" : "Normal"
+      },
+      {
+        "code" : "O59-2",
+        "display" : "Tumoral"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/umls",
+      "concept" : [{
+        "code" : "C0439673",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "id" : "BiologicalSampleOrigin",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on https://github.com/siric-osiris/OSIRIS version 0.1.0</p><p>All codes from system <code>https://github.com/siric-osiris/OSIRIS</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---github.com-siric-osiris-OSIRIS-O59-1\"> </a>O59-1</td><td>Normal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---github.com-siric-osiris-OSIRIS-O59-2\"> </a>O59-2</td><td>Tumoral</td></tr></table></div>"
+  },
+  "url" : "http://arkhn.com/fhir/osiris/ValueSet/BiologicalSampleOrigin",
+  "version" : "0.1.0",
+  "name" : "BiologicalSampleOrigin",
+  "title" : "Biological Sample Origin Value Set",
+  "status" : "active",
+  "date" : "2020-12-18T16:24:24+01:00",
+  "expansion" : {
+    "identifier" : "urn:uuid:c4eac2cd-23a9-4c46-8195-0cfcb35bf681",
+    "timestamp" : "2020-12-18T15:25:06.246Z",
+    "parameter" : [{
+      "name" : "expansion-source",
+      "valueString" : "ValueSet/BiologicalSampleOrigin"
+    },
+    {
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "https://github.com/siric-osiris/OSIRIS|0.1.0"
+    }],
+    "contains" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Normal sample"
+      }],
+      "system" : "https://github.com/siric-osiris/OSIRIS",
+      "code" : "O59-1",
+      "display" : "Normal"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Tumoral sample"
+      }],
+      "system" : "https://github.com/siric-osiris/OSIRIS",
+      "code" : "O59-2",
+      "display" : "Tumoral"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/umls",
+      "concept" : [{
+        "code" : "C0037047",
+        "display" : "Sibling"
+      },
+      {
+        "code" : "C0030551",
+        "display" : "Parent"
+      },
+      {
+        "code" : "C0015671",
+        "display" : "Father"
+      },
+      {
+        "code" : "C0026591",
+        "display" : "Mother"
+      },
+      {
+        "code" : "C3844804",
+        "display" : "Paternal cousin"
+      },
+      {
+        "code" : "C3844805",
+        "display" : "Maternal cousin"
+      },
+      {
+        "code" : "C3242761",
+        "display" : "Maternal grandparent"
+      },
+      {
+        "code" : "C3242764",
+        "display" : "Paternal grandparent"
+      },
+      {
+        "code" : "C1273524",
+        "display" : "Paternal grandmother"
+      },
+      {
+        "code" : "C1273525",
+        "display" : "Maternal grandmother"
+      },
+      {
+        "code" : "C1273523",
+        "display" : "Maternal grandfather"
+      },
+      {
+        "code" : "C1273522",
+        "display" : "Paternal grandfather"
+      },
+      {
+        "code" : "C0337471",
+        "display" : "Grandparent"
+      },
+      {
+        "code" : "C0337577",
+        "display" : "Uncle"
+      },
+      {
+        "code" : "C3714276",
+        "display" : "Paternal uncle"
+      },
+      {
+        "code" : "C3714277",
+        "display" : "Maternal uncle"
+      },
+      {
+        "code" : "C0337576",
+        "display" : "Aunt"
+      },
+      {
+        "code" : "C3714274",
+        "display" : "Paternal aunt"
+      },
+      {
+        "code" : "C3714275",
+        "display" : "Maternal aunt"
+      },
+      {
+        "code" : "C0337580",
+        "display" : "Cousin"
+      },
+      {
+        "code" : "C0439673",
+        "display" : "Unknown"
+      }]
+    },
+    {
+      "system" : "https://github.com/siric-osiris/OSIRIS",
+      "concept" : [{
+        "code" : "C77-6",
+        "display" : "Other"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/umls"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "https://github.com/siric-osiris/OSIRIS",
+      "concept" : [{
+        "code" : "C37-1",
+        "display" : "Biology"
+      },
+      {
+        "code" : "C37-2",
+        "display" : "Imaging"
+      },
+      {
+        "code" : "C37-3",
+        "display" : "Omic"
+      },
+      {
+        "code" : "C37-4",
+        "display" : "Pathology"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/umls",
+      "concept" : [{
+        "code" : "C0439673",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://github.com/siric-osiris/OSIRIS"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "https://github.com/siric-osiris/OSIRIS",
+      "concept" : [{
+        "code" : "C60-1",
+        "display" : "Room temperature"
+      },
+      {
+        "code" : "C60-2",
+        "display" : "Between 2 °C and 10 °C"
+      },
+      {
+        "code" : "C60-3",
+        "display" : "Between -18 °C and -35 °C"
+      },
+      {
+        "code" : "C60-4",
+        "display" : "Between -60 °C and -85 °C"
+      },
+      {
+        "code" : "C60-5",
+        "display" : "Liquid nitrogen, -150 °C to -196 °C"
+      },
+      {
+        "code" : "C60-6",
+        "display" : "Other"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/umls",
+      "concept" : [{
+        "code" : "C0439673",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://github.com/siric-osiris/OSIRIS"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "https://project.eortc.org/recist",
+      "concept" : [{
+        "code" : "R0",
+        "display" : "No apparent"
+      },
+      {
+        "code" : "R1",
+        "display" : "Microscopic"
+      },
+      {
+        "code" : "R2",
+        "display" : "Gross"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/umls",
+      "concept" : [{
+        "code" : "C0439673",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://project.eortc.org/recist"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA21254-0",
+        "display" : "chr1"
+      },
+      {
+        "code" : "LA21255-7",
+        "display" : "chr2"
+      },
+      {
+        "code" : "LA21256-5",
+        "display" : "chr3"
+      },
+      {
+        "code" : "LA21257-3",
+        "display" : "chr4"
+      },
+      {
+        "code" : "LA21258-1",
+        "display" : "chr5"
+      },
+      {
+        "code" : "LA21259-9",
+        "display" : "chr6"
+      },
+      {
+        "code" : "LA21260-7",
+        "display" : "chr7"
+      },
+      {
+        "code" : "LA21261-5",
+        "display" : "chr8"
+      },
+      {
+        "code" : "LA21262-3",
+        "display" : "chr9"
+      },
+      {
+        "code" : "LA21263-1",
+        "display" : "chr10"
+      },
+      {
+        "code" : "LA21264-9",
+        "display" : "chr11"
+      },
+      {
+        "code" : "LA21265-6",
+        "display" : "chr12"
+      },
+      {
+        "code" : "LA21266-4",
+        "display" : "chr13"
+      },
+      {
+        "code" : "LA21267-2",
+        "display" : "chr14"
+      },
+      {
+        "code" : "LA21268-0",
+        "display" : "chr15"
+      },
+      {
+        "code" : "LA21269-8",
+        "display" : "chr16"
+      },
+      {
+        "code" : "LA21270-6",
+        "display" : "chr17"
+      },
+      {
+        "code" : "LA21271-4",
+        "display" : "chr18"
+      },
+      {
+        "code" : "LA21272-2",
+        "display" : "chr19"
+      },
+      {
+        "code" : "LA21273-0",
+        "display" : "chr20"
+      },
+      {
+        "code" : "LA21274-8",
+        "display" : "chr21"
+      },
+      {
+        "code" : "LA21275-5",
+        "display" : "chr22"
+      },
+      {
+        "code" : "LA21276-3",
+        "display" : "chrX"
+      },
+      {
+        "code" : "LA21277-1",
+        "display" : "chrY"
+      }]
+    },
+    {
+      "system" : "https://github.com/siric-osiris/OSIRIS",
+      "concept" : [{
+        "code" : "O19-1",
+        "display" : "MT"
+      },
+      {
+        "code" : "O19-2",
+        "display" : "viral"
+      },
+      {
+        "code" : "O19-3",
+        "display" : "bacterial"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/umls",
+      "concept" : [{
+        "code" : "C0439673",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "id" : "GeneticMaterial",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 27 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li>https://github.com/siric-osiris/OSIRIS version 0.1.0</li><li>Loinc v2.68</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21254-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA21254-0.html\">LA21254-0</a></td><td>http://loinc.org</td><td>chr1</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21255-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA21255-7.html\">LA21255-7</a></td><td>http://loinc.org</td><td>chr2</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21256-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA21256-5.html\">LA21256-5</a></td><td>http://loinc.org</td><td>chr3</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21257-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA21257-3.html\">LA21257-3</a></td><td>http://loinc.org</td><td>chr4</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21258-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA21258-1.html\">LA21258-1</a></td><td>http://loinc.org</td><td>chr5</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21259-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA21259-9.html\">LA21259-9</a></td><td>http://loinc.org</td><td>chr6</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21260-7\"> </a><a href=\"http://details.loinc.org/LOINC/LA21260-7.html\">LA21260-7</a></td><td>http://loinc.org</td><td>chr7</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21261-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA21261-5.html\">LA21261-5</a></td><td>http://loinc.org</td><td>chr8</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21262-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA21262-3.html\">LA21262-3</a></td><td>http://loinc.org</td><td>chr9</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21263-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA21263-1.html\">LA21263-1</a></td><td>http://loinc.org</td><td>chr10</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21264-9\"> </a><a href=\"http://details.loinc.org/LOINC/LA21264-9.html\">LA21264-9</a></td><td>http://loinc.org</td><td>chr11</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21265-6\"> </a><a href=\"http://details.loinc.org/LOINC/LA21265-6.html\">LA21265-6</a></td><td>http://loinc.org</td><td>chr12</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21266-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA21266-4.html\">LA21266-4</a></td><td>http://loinc.org</td><td>chr13</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21267-2\"> </a><a href=\"http://details.loinc.org/LOINC/LA21267-2.html\">LA21267-2</a></td><td>http://loinc.org</td><td>chr14</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21268-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA21268-0.html\">LA21268-0</a></td><td>http://loinc.org</td><td>chr15</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21269-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA21269-8.html\">LA21269-8</a></td><td>http://loinc.org</td><td>chr16</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21270-6\"> </a><a href=\"http://details.loinc.org/LOINC/LA21270-6.html\">LA21270-6</a></td><td>http://loinc.org</td><td>chr17</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21271-4\"> </a><a href=\"http://details.loinc.org/LOINC/LA21271-4.html\">LA21271-4</a></td><td>http://loinc.org</td><td>chr18</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21272-2\"> </a><a href=\"http://details.loinc.org/LOINC/LA21272-2.html\">LA21272-2</a></td><td>http://loinc.org</td><td>chr19</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21273-0\"> </a><a href=\"http://details.loinc.org/LOINC/LA21273-0.html\">LA21273-0</a></td><td>http://loinc.org</td><td>chr20</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21274-8\"> </a><a href=\"http://details.loinc.org/LOINC/LA21274-8.html\">LA21274-8</a></td><td>http://loinc.org</td><td>chr21</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21275-5\"> </a><a href=\"http://details.loinc.org/LOINC/LA21275-5.html\">LA21275-5</a></td><td>http://loinc.org</td><td>chr22</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21276-3\"> </a><a href=\"http://details.loinc.org/LOINC/LA21276-3.html\">LA21276-3</a></td><td>http://loinc.org</td><td>chrX</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA21277-1\"> </a><a href=\"http://details.loinc.org/LOINC/LA21277-1.html\">LA21277-1</a></td><td>http://loinc.org</td><td>chrY</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---github.com-siric-osiris-OSIRIS-O19-1\"> </a>O19-1</td><td>https://github.com/siric-osiris/OSIRIS</td><td>MT</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---github.com-siric-osiris-OSIRIS-O19-2\"> </a>O19-2</td><td>https://github.com/siric-osiris/OSIRIS</td><td>viral</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---github.com-siric-osiris-OSIRIS-O19-3\"> </a>O19-3</td><td>https://github.com/siric-osiris/OSIRIS</td><td>bacterial</td><td/></tr></table></div>"
+  },
+  "url" : "http://arkhn.com/fhir/osiris/ValueSet/GeneticMaterial",
+  "version" : "0.1.0",
+  "name" : "GeneticMaterial",
+  "title" : "GeneticMaterial",
+  "status" : "active",
+  "date" : "2021-01-12T14:27:36+01:00",
+  "expansion" : {
+    "identifier" : "urn:uuid:15b04fb7-91a9-4808-adc2-b3056ff8b930",
+    "timestamp" : "2021-01-12T13:27:48.323Z",
+    "parameter" : [{
+      "name" : "expansion-source",
+      "valueString" : "ValueSet/GeneticMaterial"
+    },
+    {
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.68"
+    },
+    {
+      "name" : "version",
+      "valueString" : "https://github.com/siric-osiris/OSIRIS|0.1.0"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA21254-0",
+      "display" : "chr1"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21255-7",
+      "display" : "chr2"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21256-5",
+      "display" : "chr3"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21257-3",
+      "display" : "chr4"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21258-1",
+      "display" : "chr5"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21259-9",
+      "display" : "chr6"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21260-7",
+      "display" : "chr7"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21261-5",
+      "display" : "chr8"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21262-3",
+      "display" : "chr9"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21263-1",
+      "display" : "chr10"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21264-9",
+      "display" : "chr11"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21265-6",
+      "display" : "chr12"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21266-4",
+      "display" : "chr13"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21267-2",
+      "display" : "chr14"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21268-0",
+      "display" : "chr15"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21269-8",
+      "display" : "chr16"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21270-6",
+      "display" : "chr17"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21271-4",
+      "display" : "chr18"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21272-2",
+      "display" : "chr19"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21273-0",
+      "display" : "chr20"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21274-8",
+      "display" : "chr21"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21275-5",
+      "display" : "chr22"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21276-3",
+      "display" : "chrX"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA21277-1",
+      "display" : "chrY"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Mitochondrial genetic material"
+      }],
+      "system" : "https://github.com/siric-osiris/OSIRIS",
+      "code" : "O19-1",
+      "display" : "MT"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Viral genetic material"
+      }],
+      "system" : "https://github.com/siric-osiris/OSIRIS",
+      "code" : "O19-2",
+      "display" : "viral"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/valueset-definition",
+        "valueString" : "Bacterial genetic material"
+      }],
+      "system" : "https://github.com/siric-osiris/OSIRIS",
+      "code" : "O19-3",
+      "display" : "bacterial"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA26331-1",
+        "display" : "translocation"
+      }]
+    },
+    {
+      "system" : "https://github.com/siric-osiris/OSIRIS",
+      "concept" : [{
+        "code" : "O28-1",
+        "display" : "readthrough"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://github.com/siric-osiris/OSIRIS"
+}
+-------------------------------------------------------------------------------------

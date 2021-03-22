@@ -1,0 +1,41 @@
+# ╭─────────────────────────────────ImplementationGuide-fish.json──────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see:                                                                    │
+# │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: arkhn-template
+canonical: http://arkhn.com/fhir/template
+version: 0.1.0
+name: ArkhnTemplateImplementationGuide
+title: Arkhn Template Implementation Guide
+status: draft
+publisher:
+  name: Arkhn
+  url: http://arkhn.com
+contact:
+  - name: Arkhn
+    telecom:
+      - system: email
+        value: contact@arkhn.com
+description: The Arkhn template implementation guide
+license: CC0-1.0
+fhirVersion: 4.0.1
+dependencies:
+  hl7.fhir.uv.genomics-reporting: 1.0.0
+parameters:
+  apply-publisher: true
+  apply-contact: true
+  show-inherited-invariants: false
+copyrightYear: 2020+
+releaseLabel: ci-build
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  IG Home: index.html
+  Table of Contents: toc.html
+  Artifacts Summary: artifacts.html
+  Other Resources:
+    "FHIR Spec ": new-tab {{site.data.fhir.path}}index.html
+    "Arkhn website ": new-tab http://arkhn.com/
