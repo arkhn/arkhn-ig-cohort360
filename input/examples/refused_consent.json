@@ -1,0 +1,43 @@
+{
+    "id": "refused-consent",
+    "meta": {
+        "lastUpdated": "2021-03-22T16:19:58Z",
+        "profile": [
+            "http://arkhn.com/fhir/cohort360/StructureDefinition/refused-research-consent"
+        ]
+    },
+    "resourceType": "Consent",
+    "status": "rejected",
+    "patient": {
+        "reference": "Patient/patient-example"
+    },
+    "scope": {
+        "coding": [
+            {
+                "code": "research",
+                "display": "Research",
+                "system": "http://terminology.hl7.org/CodeSystem/consentscope"
+            }
+        ]
+    },
+    "category": [
+        {
+            "coding": [
+                {
+                    "code": "research",
+                    "display": "Research Information Access",
+                    "system": "http://terminology.hl7.org/CodeSystem/consentcategorycodes"
+                }
+            ]
+        }
+    ],
+    "policyRule": {
+        "coding": [
+            {
+                "code": "research",
+                "display": "Research",
+                "system": "http://terminology.hl7.org/CodeSystem/consentscope"
+            }
+        ]
+    }
+}
