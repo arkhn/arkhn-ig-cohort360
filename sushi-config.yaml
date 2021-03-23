@@ -4,10 +4,10 @@
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: arkhn-template
-canonical: http://arkhn.com/fhir/template
+canonical: http://arkhn.com/fhir/cohort360
 version: 0.1.0
-name: ArkhnTemplateImplementationGuide
-title: Arkhn Template Implementation Guide
+name: Cohort360ImplementationGuide
+title: Cohort360 Implementation Guide
 status: draft
 publisher:
   name: Arkhn
@@ -17,7 +17,7 @@ contact:
     telecom:
       - system: email
         value: contact@arkhn.com
-description: The Arkhn template implementation guide
+description: The cohort 360 implementation guide developed and maintained by Arkhn to indicate how to use specific profiles for cohort360 implementation
 license: CC0-1.0
 fhirVersion: 4.0.1
 dependencies:
