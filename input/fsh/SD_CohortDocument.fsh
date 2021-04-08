@@ -7,6 +7,9 @@ Description:    "DocumentReference used by cohort for full text search"
 * extension[raw-text] MS
 * extension[raw-text] ^definition = "Contains raw text extracted from the document"
 * extension[raw-text] ^short = "Contains raw text extracted from the document"
+* subject MS
+* content MS //Link to the file
+* context.encounter MS //Link to the encounter
 
 
 Extension:  RawText

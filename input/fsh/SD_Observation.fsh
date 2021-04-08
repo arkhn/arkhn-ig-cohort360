@@ -3,3 +3,4 @@ Parent:         Observation
 Id:             cohort-observation
 Title:          "Cohort observation"
 Description:    "Observation faite à propos d'un patient"
+* subject MS

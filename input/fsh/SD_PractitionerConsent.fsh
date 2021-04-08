@@ -7,8 +7,8 @@ Description:    "Practitioner Consent to access to Organization information"
 * ^publisher = "Arkhn"
 * code = http://terminology.hl7.org/CodeSystem/consentcategorycodes#research
 * active ^short = "The PractitionerConsent should be active only if the consent-status is accepted"
-* practitioner 1..1
-* organization 1..1
+* practitioner 1..1 MS
+* organization 1..1 MS
 
 * extension contains permission-status named permission-status 1..1
 
