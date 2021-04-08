@@ -1,0 +1,65 @@
+{
+    "address": [
+        {
+            "text": "4, avenue Chartier",
+            "postalCode": "59950",
+            "city": "Saint AdèleBourg"
+        }
+    ],
+    "identifier": [
+        {
+            "system": "http://terminology.arkhn.org/62248c11-1d3f-4071-bfa8-f640764a9f63",
+            "value": "42275"
+        }
+    ],
+    "telecom": [
+        {
+            "value": "03 79 03 58 43",
+            "system": "phone"
+        }
+    ],
+    "name": [
+        {
+            "family": "Perrot",
+            "given": [
+                "André"
+            ]
+        }
+    ],
+    "gender": "unknown",
+    "birthDate": "1997-02-05",
+    "maritalStatus": {
+        "coding": [
+            {
+                "code": "UNKNOWN (DEFAULT)"
+            }
+        ]
+    },
+    "communication": [
+        {
+            "language": {
+                "coding": [
+                    {
+                        "code": "SPAN"
+                    }
+                ]
+            }
+        }
+    ],
+    "deceasedDateTime": "2036-04-18",
+    "id": "patient-example",
+    "resourceType": "Patient",
+    "meta": {
+        "lastUpdated": "2021-03-23T15:57:39Z",
+        "tag": [
+            {
+                "system": "http://terminology.arkhn.org/CodeSystem/source",
+                "code": "ckm54gn3961256yob2n8l6chb"
+            },
+            {
+                "system": "http://terminology.arkhn.org/CodeSystem/resource",
+                "code": "ckm54gns972086yobxrl9ggw3"
+            }
+        ]
+    }
+}

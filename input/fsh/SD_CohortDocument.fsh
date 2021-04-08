@@ -3,6 +3,7 @@ Parent:         DocumentReference
 Id:             cohort-document
 Title:          "Cohort Document"
 Description:    "DocumentReference used by cohort for full text search"
+* ^publisher = "Arkhn"
 * extension contains documentreference-raw-text named raw-text 0..1
 * extension[raw-text] MS
 * extension[raw-text] ^definition = "Contains raw text extracted from the document"
