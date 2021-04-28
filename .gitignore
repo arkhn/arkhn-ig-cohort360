@@ -10,11 +10,7 @@ temp/**
 
 # Don't commit this because it's so large #
 ###########################################
-/nput-cache/org.hl7.fhir.publisher.jar
-input-cache/schemas
-input-cache/schemas-r5
-input-cache/publisher.jar
-*.zip
+input-cache/*
 
 # Windows generated files #
 ###########################
