@@ -3,8 +3,8 @@
 # │  supported properties, see:                                                                    │
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: arkhn-template
-canonical: http://arkhn.com/fhir/cohort360
+id: cohort360-ig
+canonical: http://cohort360.arkhn.com
 version: 0.1.0
 name: Cohort360ImplementationGuide
 title: Cohort360 Implementation Guide
@@ -13,15 +13,13 @@ publisher:
   name: Arkhn
   url: http://arkhn.com
 contact:
-  - name: Arkhn
+  - name: Nicolas Riss
     telecom:
       - system: email
-        value: contact@arkhn.com
+        value: nicolas@arkhn.com
 description: The cohort 360 implementation guide developed and maintained by Arkhn to indicate how to use specific profiles for cohort360 implementation
 license: CC0-1.0
 fhirVersion: 4.0.1
-dependencies:
-  hl7.fhir.uv.genomics-reporting: 1.0.0
 parameters:
   apply-publisher: true
   apply-contact: true
