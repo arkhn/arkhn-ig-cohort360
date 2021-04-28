@@ -8,6 +8,7 @@ fsh-generated/**
 template/**
 temp/**
 input-cache/*
+*.zip
 
 
 # Windows generated files #

@@ -1,7 +1,7 @@
 Profile:        CohortEncounter
 Parent:         Encounter
 Id:             cohort-encounter
-Title:          "Cohort encounter"
+Title:          "Cohort Encounter"
 Description:    "Rendez-vous médical d'un patient"
 * ^publisher = "Arkhn"
 * serviceProvider MS
