@@ -7,10 +7,8 @@ output
 fsh-generated/**
 template/**
 temp/**
-
-# Don't commit this because it's so large #
-###########################################
 input-cache/*
+
 
 # Windows generated files #
 ###########################
