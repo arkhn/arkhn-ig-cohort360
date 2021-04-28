@@ -8,4 +8,4 @@ Description:    "Consent to indicate that a patient refused to give the access t
 * scope = http://terminology.hl7.org/CodeSystem/consentscope#research "Research"
 * category = http://terminology.hl7.org/CodeSystem/consentcategorycodes#research "Research Information Access"
 * policyRule = http://terminology.hl7.org/CodeSystem/consentscope#research "Research"
-* patient 1..1
+* patient 1..1 MS

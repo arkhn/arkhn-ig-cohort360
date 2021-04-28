@@ -7,7 +7,7 @@ Usage: #example
 * type = #token
 * base = #PractitionerRole
 * status = #active
-* url = "http://arkhn.com/fhir/cohort360/SearchParameter/PermissionStatus"
+* url = "http://cohort360.arkhn.com/fhir/cohort360/SearchParameter/PermissionStatus"
 * description = "Search PractitionerRole depending on permission status extension"
 * name = "PERMISSION-STATUS-SEARCH-PARAMETER"
 * expression = "PractitionerRole.extension('http://arkhn.com/fhir/cohort360/StructureDefinition/permission-status')"

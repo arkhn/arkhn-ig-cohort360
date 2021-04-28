@@ -1,7 +1,7 @@
 Profile:        CohortPatient
 Parent:         Patient
 Id:             cohort-patient
-Title:          "Cohort patient"
+Title:          "Cohort Patient"
 Description:    "Patient cohort360"
 * ^publisher = "Arkhn"
 * birthDate MS
