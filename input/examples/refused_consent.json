@@ -3,7 +3,7 @@
     "meta": {
         "lastUpdated": "2021-03-22T16:19:58Z",
         "profile": [
-            "http://arkhn.com/fhir/cohort360/StructureDefinition/refused-research-consent"
+            "http://cohort360.arkhn.com/StructureDefinition/refused-research-consent"
         ]
     },
     "resourceType": "Consent",
