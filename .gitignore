@@ -14,6 +14,7 @@ temp/**
 input-cache/schemas
 input-cache/schemas-r5
 input-cache/publisher.jar
+*.zip
 
 # Windows generated files #
 ###########################
