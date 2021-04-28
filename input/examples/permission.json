@@ -45,7 +45,7 @@
             }
         ],
         "profile": [
-            "http://arkhn.com/fhir/cohort360/StructureDefinition/practitioner-consent"
+            "http://cohort360.arkhn.com/StructureDefinition/practitioner-consent"
         ]
     }
 }

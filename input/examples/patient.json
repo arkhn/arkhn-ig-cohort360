@@ -60,6 +60,9 @@
                 "system": "http://terminology.arkhn.org/CodeSystem/resource",
                 "code": "ckm54gns972086yobxrl9ggw3"
             }
+        ],
+        "profile": [
+            "http://cohort360.arkhn.com/StructureDefinition/cohort-patient"
         ]
     }
 }
