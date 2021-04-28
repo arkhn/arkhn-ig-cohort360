@@ -3,6 +3,7 @@
   <div xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../fhir-single.xsd">
     <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+    <img src="logo_blue.png" alt="Cohort360" />
     <h3>Background</h3>
     <a name="intro"></a>
     <p>
@@ -14,6 +15,29 @@
       The Cohort 360 implementation guide describes Cohort 360 web app FHIR resource usage. It discribes how to modelize the data to work with the app.
       
       This IG defines the profiles used by the Cohort 360 app and the attributes used by the app, marked by Must Supprt (MS) tags.
+    </p>
+    <a name="technical"></a>
+    <h3>Technical Overview</h3>
+    <p>	
+    There are two sets of resources:
+      <ul>
+        <li>Resources used by Cohort360: 
+          <a href="StructureDefinition-cohort-condition.html">CohortCondition</a>,
+          <a href="StructureDefinition-cohort-document.html">CohortDocument</a>,
+          <a href="StructureDefinition-cohort-encounter.html">CohortEncounter</a>,
+          <a href="StructureDefinition-cohort-group.html">CohortGroup</a>,
+          <a href="StructureDefinition-cohort-observation.html">CohortObservation</a>,
+          <a href="StructureDefinition-cohort-organization.html">CohortOrganization</a>,
+          <a href="StructureDefinition-cohort-patient.html">CohortPatient</a>,
+          <a href="StructureDefinition-cohort-practitioner.html">CohortPractitioner</a>,
+          <a href="StructureDefinition-cohort-procedure.html">CohortProcedure</a> and
+          <a href="StructureDefinition-cohort-ghm.html">GHM</a>
+        </li>
+        <li>Resources created by Cohort360 and the DPO portail: 
+          <a href="StructureDefinition-practitioner-consent.html">PractitionerConsent</a> and
+          <a href="StructureDefinition-refused-research-consent.html">RefusedResearchConsent</a>
+        </li>
+      </ul>
     </p>
   </div>
 </div>
