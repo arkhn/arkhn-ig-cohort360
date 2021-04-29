@@ -15,4 +15,4 @@ jobs:
       - name: Install modules
         run: npm install -g fsh-sushi
       - name: Run sushi
-        run: sushi implementationguide
+        run: sushi .
