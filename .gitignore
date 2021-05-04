@@ -10,7 +10,6 @@ temp/**
 input-cache/*
 *.zip
 
-
 # Windows generated files #
 ###########################
 Thumbs.db
