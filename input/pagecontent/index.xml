@@ -39,5 +39,15 @@
         </li>
       </ul>
     </p>
+    <h3>Acronyms</h3>
+    <p>
+      For now, this ig has a French scope. In the future, new profiles are going to be developed for an international scope. 
+      This is why there are some french acronyms:
+      <ul>
+        <li> GHM: Groupe Homogène de Malade</li>
+        <li> PMSI: Programme de Médicalisation des Systèmes d'information</li>
+      </ul>
+      The goal is to have a cohortIG with a universal scope (arkhn.fhir.uv.cohort360). Country particularities will be defined in sub-ig which inherit from arkhn.fhir.uv.cohort360 (ex: arkhn.fhir.fr.cohort360).
+    </p>
   </div>
 </div>
