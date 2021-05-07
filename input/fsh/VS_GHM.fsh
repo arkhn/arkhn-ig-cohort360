@@ -1,4 +1,4 @@
-ValueSet: GHM
+ValueSet: GHM-VS
 Title: "Groupe Homogène de Malade"
 Description:  "Groupe Homogène de Malade (GHM) used to determine the reimbursement of an hospital for a care."
 * GHM#01C031 "Craniotomies pour traumatisme, âge supérieur à 17 ans, niveau 1"
@@ -322,14 +322,14 @@ Description:  "Groupe Homogène de Malade (GHM) used to determine the reimbursem
 * GHM#03C112 "Amygdalectomies et/ou adénoïdectomies isolées, âge supérieur à 17 ans, niveau 2"
 * GHM#03C113 "Amygdalectomies et/ou adénoïdectomies isolées, âge supérieur à 17 ans, niveau 3"
 * GHM#03C114 "Amygdalectomies et/ou adénoïdectomies isolées, âge supérieur à 17 ans, niveau 4"
-* GHM#03C121 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge inférieur à 18 ans," niveau 1
-* GHM#03C122 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge inférieur à 18 ans," niveau 2
-* GHM#03C123 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge inférieur à 18 ans," niveau 3
-* GHM#03C124 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge inférieur à 18 ans," niveau 4
-* GHM#03C131 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge supérieur à 17 ans," niveau 1
-* GHM#03C132 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge supérieur à 17 ans," niveau 2
-* GHM#03C133 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge supérieur à 17 ans," niveau 3
-* GHM#03C134 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge supérieur à 17 ans," niveau 4
+* GHM#03C121 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge inférieur à 18 ans, niveau 1"
+* GHM#03C122 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge inférieur à 18 ans, niveau 2"
+* GHM#03C123 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge inférieur à 18 ans, niveau 3"
+* GHM#03C124 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge inférieur à 18 ans, niveau 4"
+* GHM#03C131 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge supérieur à 17 ans, niveau 1"
+* GHM#03C132 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge supérieur à 17 ans, niveau 2"
+* GHM#03C133 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge supérieur à 17 ans, niveau 3"
+* GHM#03C134 "Interventions sur les amygdales et les végétations adénoïdes autres que les amygdalectomies et/ou les adénoïdectomies isolées, âge supérieur à 17 ans, niveau 4"
 * GHM#03C14J "Drains transtympaniques, âge inférieur à 18 ans, en ambulatoire"
 * GHM#03C141 "Drains transtympaniques, âge inférieur à 18 ans, niveau 1"
 * GHM#03C142 "Drains transtympaniques, âge inférieur à 18 ans, niveau 2"
@@ -614,7 +614,7 @@ Description:  "Groupe Homogène de Malade (GHM) used to determine the reimbursem
 * GHM#05C072 "Autres interventions cardiothoraciques, âge inférieur à 2 ans, avec circulation extracorporelle, niveau 2"
 * GHM#05C073 "Autres interventions cardiothoraciques, âge inférieur à 2 ans, avec circulation extracorporelle, niveau 3"
 * GHM#05C074 "Autres interventions cardiothoraciques, âge inférieur à 2 ans, avec circulation extracorporelle, niveau 4"
-* GHM#05C08T "Transferts et autres séjours courts pour autres interventions cardiothoraciques, âge supérieur à 1 an, ou vasculaires quel que soit l'âge, sans" circulation extracorporelle
+* GHM#05C08T "Transferts et autres séjours courts pour autres interventions cardiothoraciques, âge supérieur à 1 an, ou vasculaires quel que soit l'âge, sans circulation extracorporelle"
 * GHM#05C081 "Autres interventions cardiothoraciques, âge supérieur à 1 an, ou vasculaires quel que soit l'âge, sans circulation extracorporelle, niveau 1"
 * GHM#05C082 "Autres interventions cardiothoraciques, âge supérieur à 1 an, ou vasculaires quel que soit l'âge, sans circulation extracorporelle, niveau 2"
 * GHM#05C083 "Autres interventions cardiothoraciques, âge supérieur à 1 an, ou vasculaires quel que soit l'âge, sans circulation extracorporelle, niveau 3"
@@ -1115,7 +1115,7 @@ Description:  "Groupe Homogène de Malade (GHM) used to determine the reimbursem
 * GHM#08C132 "Résections osseuses localisées et/ou ablation de matériel de fixation interne au niveau de la hanche et du fémur, niveau 2"
 * GHM#08C133 "Résections osseuses localisées et/ou ablation de matériel de fixation interne au niveau de la hanche et du fémur, niveau 3"
 * GHM#08C134 "Résections osseuses localisées et/ou ablation de matériel de fixation interne au niveau de la hanche et du fémur, niveau 4"
-* GHM#08C14J "Résections osseuses localisées et/ou ablation de matériel de fixation interne au niveau d'une localisation autre que la hanche et le fémur, en" ambulatoire
+* GHM#08C14J "Résections osseuses localisées et/ou ablation de matériel de fixation interne au niveau d'une localisation autre que la hanche et le fémur, en ambulatoire"
 * GHM#08C141 "Résections osseuses localisées et/ou ablation de matériel de fixation interne au niveau d'une localisation autre que la hanche et le fémur, niveau 1"
 * GHM#08C142 "Résections osseuses localisées et/ou ablation de matériel de fixation interne au niveau d'une localisation autre que la hanche et le fémur, niveau 2"
 * GHM#08C143 "Résections osseuses localisées et/ou ablation de matériel de fixation interne au niveau d'une localisation autre que la hanche et le fémur, niveau 3"
