@@ -2,7 +2,7 @@ Profile:        CohortGroup
 Parent:         Group
 Id:             cohort-group
 Title:          "Cohort Group"
-Description:    "Cohort 360 Group to indicate the list of members included in a cohort with the list of criteria."
+Description:    "CohortGroup indicates the list of members included in a cohort with the list of criteria created using Cohort 360 app"
 * ^publisher = "Arkhn"
 * member MS
 * member ^definition = "Identifies the resource instances that are members of the group. Used in Cohort360 to compute stats about about the group and show the list of members."

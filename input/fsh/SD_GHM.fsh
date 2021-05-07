@@ -2,7 +2,7 @@ Profile:        GHM
 Parent:         Claim
 Id:             cohort-ghm
 Title:          "Cohort GHM"
-Description:    "Groupe Homogène de Malade"
+Description:    "A French Claim called Groupe Homogène de Malade (GHM) to define hospital reimbursement"
 * ^publisher = "Arkhn"
 * patient MS
 * patient ^definition = "The party to whom the professional services and/or products have been supplied or are being considered and for whom actual or forecast reimbursement is sought."

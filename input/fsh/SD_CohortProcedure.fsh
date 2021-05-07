@@ -2,7 +2,7 @@ Profile:        CohortProcedure
 Parent:         Procedure
 Id:             cohort-procedure
 Title:          "Cohort Procedure"
-Description:    "Procedure resource used by cohort360"
+Description:    "An action that is being or was performed on a patient used by Cohort360 App"
 * ^publisher = "Arkhn"
 * subject MS
 * subject ^definition = "The person, animal or group on which the procedure was performed."
