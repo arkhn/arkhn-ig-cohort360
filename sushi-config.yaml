@@ -3,7 +3,7 @@
 # │  supported properties, see:                                                                    │
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: cohort360-ig
+id: arkhn.fhir.fr.cohort360
 canonical: http://cohort360.arkhn.com
 version: 0.1.0
 name: Cohort360ImplementationGuide

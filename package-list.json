@@ -1,5 +1,5 @@
 {
-  "package-id": "cohort360-ig",
+  "package-id": "arkhn.fhir.fr.cohort360",
   "canonical": "http://cohort360.arkhn.com",
   "title": "Cohort360 Implementation Guide",
   "introduction": "The cohort 360 app implementation guide",
