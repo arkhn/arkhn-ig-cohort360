@@ -1,8 +1,8 @@
 Profile:        CohortPatient
 Parent:         Patient
 Id:             cohort-patient
-Title:          "Cohort Patient"
-Description:    "Patient cohort360"
+Title:          "Information about an individual receiving health care services used by Cohort360 app"
+Description:    "Patient "
 * ^publisher = "Arkhn"
 * birthDate MS
 * deceasedDateTime MS

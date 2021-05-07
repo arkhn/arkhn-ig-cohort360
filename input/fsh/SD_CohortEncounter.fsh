@@ -2,7 +2,7 @@ Profile:        CohortEncounter
 Parent:         Encounter
 Id:             cohort-encounter
 Title:          "Cohort Encounter"
-Description:    "Rendez-vous médical d'un patient"
+Description:    "An interaction during which services are provided to the patient used by Cohort360 app"
 * ^publisher = "Arkhn"
 * serviceProvider MS
 * serviceProvider ^definition = "The organization that is primarily responsible for this Encounter's services. This MAY be the same as the organization on the Patient record, however it could be different, such as if the actor performing the services was from an external organization (which may be billed seperately) for an external consultation. Refer to the example bundle showing an abbreviated set of Encounters for a colonoscopy. In Cohort360, the serviceProvider is used to link each encounter to an Organization." // Might be set to 1..1 ?

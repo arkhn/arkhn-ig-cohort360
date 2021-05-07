@@ -2,7 +2,7 @@ Profile:        CohortDocument
 Parent:         DocumentReference
 Id:             cohort-document
 Title:          "Cohort Document"
-Description:    "DocumentReference used by cohort for full text search"
+Description:    "A reference to a document used by Cohort360 app for full text search"
 * ^publisher = "Arkhn"
 * extension contains documentreference-raw-text named raw-text 0..1
 * extension[raw-text] MS
