@@ -1,4 +1,4 @@
-ValueSet: GHM-VS
+ValueSet: GHMVS
 Title: "Groupe Homogène de Malade"
 Description:  "Groupe Homogène de Malade (GHM) used to determine the reimbursement of an hospital for a care."
 * GHM#01C031 "Craniotomies pour traumatisme, âge supérieur à 17 ans, niveau 1"
