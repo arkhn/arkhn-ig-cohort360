@@ -34,6 +34,7 @@ menu:
   IG Home: index.html
   Table of Contents: toc.html
   Artifacts Summary: artifacts.html
+  Downloads: downloads.html
   Other Resources:
     "FHIR Spec ": new-tab {{site.data.fhir.path}}index.html
     "Arkhn website ": new-tab http://arkhn.com/
