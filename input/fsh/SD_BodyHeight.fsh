@@ -1,4 +1,4 @@
-Profile:        CohortObservation
+Profile:        CohortBodyHeight
 Parent:         http://hl7.org/fhir/StructureDefinition/bodyheight
 Id:             cohort-body-height
 Title:          "Cohort Body Height"
