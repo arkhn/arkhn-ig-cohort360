@@ -7,3 +7,5 @@ Description:    "Body Weight Measure"
 // this profile must be implemented in the cohort360 app on the patient page
 * valueQuantity.value MS
 * valueQuantity.value ^definition = "Weight displayed in cohort360"
+* effective[x] MS
+* effective[x] ^definition = "Clinically relevant time/time-period for lab observation: the last weight measure must be shown in cohort360 in the patient description table."
