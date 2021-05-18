@@ -6,4 +6,4 @@ Description:    "Body Weight Measure"
 * ^publisher = "Arkhn"
 // this profile must be implemented in the cohort360 app on the patient page
 * valueQuantity.value MS
-* valueQuantity.value ^description = "Weight displayed in cohort360"
+* valueQuantity.value ^definition = "Weight displayed in cohort360"

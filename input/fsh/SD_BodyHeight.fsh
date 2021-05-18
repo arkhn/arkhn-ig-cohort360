@@ -6,4 +6,4 @@ Description:    "Body Height Measure"
 * ^publisher = "Arkhn"
 // this profile must be implemented in the cohort360 app on the patient page
 * valueQuantity.value MS
-* valueQuantity.value ^description = "Height displayed in cohort360"
+* valueQuantity.value ^definition = "Height displayed in cohort360"
