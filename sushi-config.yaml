@@ -38,3 +38,23 @@ menu:
   Other Resources:
     "FHIR Spec ": new-tab {{site.data.fhir.path}}index.html
     "Arkhn website ": new-tab http://arkhn.com/
+groups:
+  UsedResources:
+    name: Used Resources
+    description: Resources used by cohort360
+    resources:
+      - StructureDefinition/cohort-condition
+      - StructureDefinition/cohort-document
+      - StructureDefinition/cohort-encounter
+      - StructureDefinition/cohort-organization
+      - StructureDefinition/cohort-patient
+      - StructureDefinition/cohort-practitioner
+      - StructureDefinition/cohort-procedure
+      - StructureDefinition/cohort-ghm
+  CreatedResources:
+    name: Created Resources
+    description: Resources created by cohort360
+    resources:
+      - StructureDefinition/cohort-group
+      - StructureDefinition/practitioner-consent
+      - StructureDefinition/refused-research-consent
