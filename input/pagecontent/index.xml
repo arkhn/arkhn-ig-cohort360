@@ -6,12 +6,12 @@
     <h3>Background</h3>
     <a name="intro"></a>
     <p>
-      Cohort 360 app is a FHIR search engine and viewer to generate cohorts, extract data, search for patients...
+      Cohort 360 app is a powerful FHIR search engine and viewer to generate cohorts, extract data, search for patients...
     </p>
     <a name="technical"></a>
     <h3>Technical Overview</h3>
     <p>	
-      The Cohort 360 implementation guide describes Cohort 360 web app resource usage. 
+      The Cohort 360 implementation guide describes Cohort 360 web app FHIR resource usage. It discribes how to modelize the data to work with the app.
       
       This IG defines the profiles used by the Cohort 360 app and the attributes used by the app, marked by Must Supprt (MS) tags.
     </p>
