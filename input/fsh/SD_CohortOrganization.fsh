@@ -2,7 +2,7 @@ Profile:        CohortOrganization
 Parent:         Organization
 Id:             cohort-organization
 Title:          "Cohort Organization"
-Description:    "A grouping of organizations with a common purpose used by Cohort360 app to generate the perimeter tree"
+Description:    "A grouping of organizations with a common purpose to generate the perimeter tree"
 * ^publisher = "Arkhn"
 * type MS
 * type ^definition = "The kind(s) of organization that this is. In Cohort360, it is used to indicate the type of organization/ hospital service."

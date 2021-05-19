@@ -1,4 +1,4 @@
-Profile:        GHM
+Profile:        FrGHM
 Parent:         Claim
 Id:             cohort-ghm
 Title:          "Cohort GHM"
