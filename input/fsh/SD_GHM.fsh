@@ -10,4 +10,4 @@ Description:    "A French Claim called Groupe Homogène de Malade (GHM) to defin
 * provider ^definition = "The provider which is responsible for the claim, predetermination or preauthorization."
 * item.productOrService MS
 * item.productOrService ^definition = "When the value is a group code then this item collects a set of related claim details, otherwise this contains the product, service, drug or other billing code for the item."
-* item.productOrService from GHMVS (required)
+* item.productOrService from FrGHMVS (required)
