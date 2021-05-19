@@ -2,7 +2,7 @@ Profile:        CohortBodyWeight
 Parent:         http://hl7.org/fhir/StructureDefinition/bodyweight
 Id:             cohort-body-weight
 Title:          "Cohort Body Weight"
-Description:    "Body Weight Measure"
+Description:    "Body Weight Measure used in the Patient page of Cohort360."
 * ^publisher = "Arkhn"
 // this profile must be implemented in the cohort360 app on the patient page
 * valueQuantity.value MS
