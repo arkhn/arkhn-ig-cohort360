@@ -2,7 +2,7 @@ Profile:        CohortPractitioner
 Parent:         Practitioner
 Id:             cohort-practitioner
 Title:          "Cohort Practitioner"
-Description:    "A person with a formal responsibility in the provisioning of healthcare or related services used by Cohort360 App"
+Description:    "A person with a formal responsibility in the provisioning of healthcare or related services"
 * ^publisher = "Arkhn"
 * identifier MS
 * identifier ^definition = "An identifier that applies to this person in this role."
