@@ -7,4 +7,3 @@ Description:    "Pathologie du patient"
 * identifier MS
 * subject MS
 * code MS
-* encounter MS
