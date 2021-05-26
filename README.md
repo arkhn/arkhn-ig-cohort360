@@ -1,3 +1,7 @@
+# About this IG
+
+This IG describes how to modelize FHIR resources to work with Cohort 360 web app.
+
 # Getting started
 
 ## Dependencies
@@ -13,16 +17,38 @@ bash _updatepublisher.sh
 Install sushi
 
 ```
-yarn add fsh-sushi` or `npm install -g fsh-sushi
+yarn add fsh-sushi
+# or
+npm install -g fsh-sushi
 ```
 
 Install jekyll
 
 ```
-gem install bundler jekyll
+gem install bundler
+gem install jekyll
 ```
 
+### Known issues
+
 If you have permission issues, you may look at this [jekyll doc](https://jekyllrb.com/docs/troubleshooting/#no-sudo)
+
+On mac OS, some difficulties can occure installing jekyll.
+You can verify that jekyll is well installed by launching the `jekyll` command on your terminal.
+
+If the command is not found, you can repare this by:
+
+- installing xcode using the AppStore
+- launch the commands:
+
+```
+xcode-select --install
+sudo xcode-select --switch /Library/Developer/CommandLineTools # Enable command line tools
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+```
+
+- accept the xcode license `sudo xcodebuild -license accept`
+- Retry to install jekyll
 
 ## Create an IG
 
@@ -35,7 +61,10 @@ bash _genonce.sh
 If you don't want to create the whole IG, you can also just launch sushi using the command:
 
 ```
+# Generate StructureDefinitions without snapshots
 sushi .
+# Generate StructureDefinitions with snapshots
+sushi -s .
 ```
 
 Note that `bash _genonce.sh` also launch sushi and convert .fsh files to json StructureDefinitions
