@@ -46,5 +46,39 @@
       </ul>
       The goal is to have a cohortIG with a universal scope (arkhn.fhir.uv.cohort360). Country particularities will be defined in sub-ig which inherit from arkhn.fhir.uv.cohort360 (ex: arkhn.fhir.fr.cohort360).
     </p>
+    <h3>Technical Overview</h3>
+    <a name="technical overview"></a>
+    <p>	
+    There are two sets of resources:
+      <ul>
+        <li>Resources used by Cohort360: 
+          <a href="StructureDefinition-cohort-condition.html">CohortCondition</a>,
+          <a href="StructureDefinition-cohort-document.html">CohortDocument</a>,
+          <a href="StructureDefinition-cohort-encounter.html">CohortEncounter</a>,
+          <a href="StructureDefinition-cohort-group.html">CohortGroup</a>,
+          <a href="StructureDefinition-cohort-observation.html">CohortObservation</a>,
+          <a href="StructureDefinition-cohort-organization.html">CohortOrganization</a>,
+          <a href="StructureDefinition-cohort-patient.html">CohortPatient</a>,
+          <a href="StructureDefinition-cohort-practitioner.html">CohortPractitioner</a>,
+          <a href="StructureDefinition-cohort-procedure.html">CohortProcedure</a> and
+          <a href="StructureDefinition-cohort-ghm.html">GHM</a>
+        </li>
+        <li>Resources created by Cohort360 and the DPO portail: 
+          <a href="StructureDefinition-practitioner-consent.html">PractitionerConsent</a> and
+          <a href="StructureDefinition-refused-research-consent.html">RefusedResearchConsent</a>
+        </li>
+      </ul>
+    </p>
+    <h3>Acronyms</h3>
+    <a name="acronyms"></a>
+    <p>
+      For now, this ig has a French scope. In the future, new profiles are going to be developed for an international scope. 
+      This is why there are some french acronyms:
+      <ul>
+        <li> GHM: Groupe Homogène de Malade</li>
+        <li> PMSI: Programme de Médicalisation des Systèmes d'information</li>
+      </ul>
+      The goal is to have a cohortIG with a universal scope (arkhn.fhir.uv.cohort360). Country particularities will be defined in sub-ig which inherit from arkhn.fhir.uv.cohort360 (ex: arkhn.fhir.fr.cohort360).
+    </p>
   </div>
 </div>
