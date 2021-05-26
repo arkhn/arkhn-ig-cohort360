@@ -15,4 +15,4 @@ Description:    "Biology observation about a Patient. This profile is used in Co
 * code MS
 * code ^definition = "Type of analysis: display -> text -> code must be shown on Cohort360."
 * bodySite MS
-* bodySite ^definition = "bodySit: display -> text -> code must be shown on Cohort360."
+* bodySite ^definition = "bodySite: display -> text -> code must be shown on Cohort360."
