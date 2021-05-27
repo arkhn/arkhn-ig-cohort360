@@ -2,7 +2,7 @@ Profile:        CohortLabObservation
 Parent:         Observation
 Id:             cohort-lab-observation
 Title:          "Cohort lab Observation"
-Description:    "Biology observation about a Patient. This profile is used in Cohort360 to show biology results into a table."
+Description:    "Biology observation about a Patient. This profile is used to show biology results into the patient laboratory table."
 * ^publisher = "Arkhn"
 * subject MS
 * category = http://terminology.hl7.org/CodeSystem/observation-category#laboratory

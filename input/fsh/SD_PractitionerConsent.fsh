@@ -2,7 +2,7 @@ Profile:        PractitionerConsent
 Parent:         PractitionerRole
 Id:             practitioner-consent
 Title:          "Practitioner Consent"
-Description:    "Practitioner Consent used by Cohort360 to determine if a Practitioner has authorization access to Organization data"
+Description:    "Practitioner Consent to determine if a Practitioner has authorization access to Organization data"
 * obeys cohort360-1
 * ^publisher = "Arkhn"
 * code = http://terminology.hl7.org/CodeSystem/consentcategorycodes#research
