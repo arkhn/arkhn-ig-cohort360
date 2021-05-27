@@ -4,7 +4,7 @@
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: arkhn.fhir.fr.cohort360
-canonical: http://cohort360.arkhn.com
+canonical: http://fhir.arkhn.com/cohort360
 version: 0.1.1
 name: Cohort360ImplementationGuide
 title: Cohort360 Implementation Guide
