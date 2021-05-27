@@ -30,7 +30,7 @@
             "system": "http://terminology.arkhn.org/739464c5-1594-41ba-9503-3d4e99cd0ad0"
         }
     },
-    "id": "c76af1b5-bf1d-5e63-bb3b-427d32fb394e",
+    "id": "permission-example-1",
     "resourceType": "PractitionerRole",
     "meta": {
         "lastUpdated": "2021-03-22T16:19:58Z",
@@ -45,7 +45,7 @@
             }
         ],
         "profile": [
-            "http://arkhn.com/fhir/cohort360/StructureDefinition/practitioner-consent"
+            "http://cohort360.arkhn.com/StructureDefinition/practitioner-consent"
         ]
     }
 }

@@ -2,13 +2,15 @@ Profile:        PractitionerConsent
 Parent:         PractitionerRole
 Id:             practitioner-consent
 Title:          "Practitioner Consent"
-Description:    "Practitioner Consent to access to Organization information"
+Description:    "Practitioner Consent to determine if a Practitioner has authorization access to Organization data"
 * obeys cohort360-1
 * ^publisher = "Arkhn"
 * code = http://terminology.hl7.org/CodeSystem/consentcategorycodes#research
 * active ^short = "The PractitionerConsent should be active only if the consent-status is accepted"
 * practitioner 1..1 MS
+* practitioner ^definition = "Practitioner concerned by this PractitionerConsent"
 * organization 1..1 MS
+* organization ^definition = "Perimeter concerned by this PractitionerConsent"
 
 * extension contains permission-status named permission-status 1..1
 
