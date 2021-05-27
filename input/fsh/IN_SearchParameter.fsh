@@ -1,7 +1,7 @@
 Instance: permission-status
 InstanceOf: SearchParameter
 Description: "Search parameter to look for permission status on PractitionerConsent profile"
-Usage: #example
+Usage: #definition
 * id = "PermissionStatus"
 * code = #permission-status
 * type = #token

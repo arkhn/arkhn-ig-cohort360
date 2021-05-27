@@ -19,7 +19,7 @@
       <ul>
         <li>Resources used by Cohort360: 
           <a href="StructureDefinition-cohort-condition.html">CohortCondition</a>,
-          <a href="StructureDefinition-cohort-document.html">CohortDocument</a>,
+          <a href="StructureDefinition-cohort-document.html">CohortDocumentReference</a>,
           <a href="StructureDefinition-cohort-encounter.html">CohortEncounter</a>,
           <a href="StructureDefinition-cohort-group.html">CohortGroup</a>,
           <a href="StructureDefinition-cohort-observation.html">CohortObservation</a>,
