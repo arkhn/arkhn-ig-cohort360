@@ -37,9 +37,6 @@ case "$OSTYPE" in
 	*) echo "unknown: $OSTYPE"; exit 1 ;;
 esac
 
-echo Checking internet connection...
-curl -sSf tx.fhir.org > /dev/null
-
 if [ $? -ne 0 ] ; then
   echo "Offline (or the terminology server is down), unable to update.  Exiting"
   exit 1
