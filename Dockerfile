@@ -1,4 +1,4 @@
-FROM jruby:9.2.17.0-jdk11 as build-image
+FROM jruby:9.2.18.0-jdk11 as build-image
 
 RUN apt-get update \
     && apt-get upgrade -y \
