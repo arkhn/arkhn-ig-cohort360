@@ -6,6 +6,6 @@ set -e
 # Trace execution
 [[ "${DEBUG}" ]] && set -x
 
-export STATIC_ROOT="${STATIC_ROOT:-/var/www/static/example-ig}"
+export STATIC_ROOT="${STATIC_ROOT:-/var/www/static/cohort360-ig}"
 
 rm -rf "${STATIC_ROOT}" && cp -r ./output "${STATIC_ROOT}"
