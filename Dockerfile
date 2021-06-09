@@ -8,6 +8,7 @@ RUN apt-get update \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
+RUN systemctl restart docker
 
 COPY _updatePublisher.sh _updatePublisher.sh
 RUN ./_updatePublisher.sh -y || echo "ok"
