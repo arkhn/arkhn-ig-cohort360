@@ -32,21 +32,14 @@ done
 
 echo "Checking internet connection"
 case "$OSTYPE" in
-  linux-gnu* ) ping tx.fhir.org -4 -c 1 -w 1000 >/dev/null ;;
+  linux-gnu* ) curl -sSf tx.fhir.org > /dev/null ;;
   darwin* )	ping tx.fhir.org -c 1 >/dev/null ;;
 	*) echo "unknown: $OSTYPE"; exit 1 ;;
 esac
 
 if [ $? -ne 0 ] ; then
-  case "$OSTYPE" in
-	  linux-gnu* ) curl -sSf tx.fhir.org > /dev/null ;;
-    darwin* )	ping tx.fhir.org -c 1 >/dev/null ;;
-    *) echo "unknown: $OSTYPE"; exit 1 ;;
-  esac
-  if [ $? -ne 0 ] ; then
-    echo "Offline (or the terminology server is down), unable to update.  Exiting"
-    exit 1
-  fi
+  echo "Offline (or the terminology server is down), unable to update.  Exiting"
+  exit 1
 fi
 
 if [ ! -d "$input_cache_path" ] ; then
