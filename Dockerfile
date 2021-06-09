@@ -9,7 +9,6 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 
-RUN ping google.com
 COPY _updatePublisher.sh _updatePublisher.sh
 RUN ./_updatePublisher.sh -y || echo "ok"
 
