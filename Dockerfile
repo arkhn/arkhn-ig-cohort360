@@ -22,9 +22,9 @@ COPY ig.ini ig.ini
 COPY sushi-config.yaml sushi-config.yaml
 COPY package-list.json package-list.json
 
-RUN ./_updatePublisher_curl.sh -y || echo "ok"
+RUN bash _updatePublisher_curl.sh -y || echo "ok"
 
-RUN ./_genonce.sh -y
+RUN bash _genonce.sh -y
 
 FROM alpine:3.13
 
