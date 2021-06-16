@@ -17,6 +17,7 @@ WORKDIR /build
 
 COPY _updatePublisher_curl.sh _updatePublisher_curl.sh
 COPY _genonce.sh _genonce.sh
+
 COPY input input
 COPY ig.ini ig.ini
 COPY sushi-config.yaml sushi-config.yaml
