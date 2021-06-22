@@ -1,6 +1,6 @@
 {
   "package-id": "arkhn.fhir.fr.cohort360",
-  "canonical": "http://cohort360.arkhn.com",
+  "canonical": "http://fhir.arkhn.com/cohort360",
   "title": "Cohort360 Implementation Guide",
   "introduction": "The cohort 360 app implementation guide",
   "list": [
@@ -8,7 +8,7 @@
       "version": "current",
       "date": "2021-04-28",
       "desc": "Initial STU ballot (Apr 2021 Ballot)",
-      "path": "http://cohort360.arkhn.com",
+      "path": "http://fhir.arkhn.com/cohort360",
       "status": "ballot",
       "sequence": "STU 1",
       "fhirversion": "4.0.1",
