@@ -17,9 +17,7 @@ bash _updatepublisher.sh
 Install sushi
 
 ```
-yarn add fsh-sushi
-# or
-npm install -g fsh-sushi
+yarn install
 ```
 
 Install jekyll

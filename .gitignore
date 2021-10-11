@@ -9,7 +9,7 @@ template/**
 temp/**
 input-cache/*
 *.zip
-
+node_modules
 
 # Windows generated files #
 ###########################
